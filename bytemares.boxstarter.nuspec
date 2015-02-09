@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>bytemares.boxstarter</id>
+    <version>1.0.0</version>
+    <authors>Richard ONeil</authors>
+    <owners>Richard ONeil</owners>
+    <description>Boxstarter Package to install and configure a Windows development machine</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>
