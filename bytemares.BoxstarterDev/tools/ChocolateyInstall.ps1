@@ -70,7 +70,8 @@ try {
 
 #Other dev tools
 cinst fiddler4
-cinst winmerge
+cinst winmerge    # fallback diff tool
+cinst meld        # best diff tool
 cinst ProcExp
 cinst sysinternals
 cinst NugetPackageExplorer
