@@ -3,7 +3,9 @@ Boxstarter script for a development machine
 
 To kick it off, run the following line from a Powershell prompt:
 
-`START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/groovyghoul/boxstarter-dev-machine/master/bytemares.BoxstarterDev/tools/ChocolateyInstall.ps1`
+```
+START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/groovyghoul/boxstarter-dev-machine/master/bytemares.BoxstarterDev/tools/ChocolateyInstall.ps1
+```
 
 #### Troubleshooting:
 
