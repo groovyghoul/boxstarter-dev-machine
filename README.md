@@ -7,4 +7,4 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/gro
 
 Thanks to http://blog.zerosharp.com/provisioning-a-new-development-machine-with-boxstarter/ for the initial script.
 
-<a href="https://www.myget.org/BuildSource/Badge/bytemares-boxstarter?identifier=1f0ae702-f4ce-4616-b096-9a173ff58a0d" /></a>
+<a href="https://www.myget.org/gallery/googleanalyticstracker"><img alt="GoogleAnalyticsTracker Nightly Build Status" src=https://www.myget.org/BuildSource/Badge/bytemares-boxstarter?identifier=1f0ae702-f4ce-4616-b096-9a173ff58a0d" /></a>
