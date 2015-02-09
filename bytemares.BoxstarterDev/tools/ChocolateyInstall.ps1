@@ -18,14 +18,14 @@ Install-WindowsUpdate -AcceptEula
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Install Visual Studio 2013 Professional
-cinstm VisualStudio2013Professional -InstallArguments WebTools
+cinst VisualStudio2013Professional -InstallArguments WebTools
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # Visual Studio SDK required for PoshTools extension
-cinstm VS2013SDK
+cinst VS2013SDK
 if (Test-PendingReboot) { Invoke-Reboot }
 
-cinstm dotnet4.5 # Not automatically installed with VS 2013. Uses Windows Features to install.
+cinst dotnet4.5 # Not automatically installed with VS 2013. Uses Windows Features to install.
 if (Test-PendingReboot) { Invoke-Reboot }
 
 # VS extensions
@@ -69,41 +69,41 @@ try {
 }
 
 #Other dev tools
-cinstm fiddler4
-cinstm winmerge
-cinstm ProcExp
-cinstm sysinternals
-cinstm NugetPackageExplorer
-cinstm windbg
-cinstm Devbox-Clink # Clink improves the existing command prompt (e.g., paste works)
-cinstm linqpad4
-cinstm git
-cinstm ConEmu
-cinstm poshgit
-cinstm SublimeText3
-cinstm dotpeek
-cinstm mssqlserver2014express
-cinstm mssqlservermanagementstudio2014express
-cinstm python
-cinstm nodejs
-cinstm RoboMongo
-#cinstm resharper
-#cintm SourceTree
+cinst fiddler4
+cinst winmerge
+cinst ProcExp
+cinst sysinternals
+cinst NugetPackageExplorer
+cinst windbg
+cinst Devbox-Clink # Clink improves the existing command prompt (e.g., paste works)
+cinst linqpad4
+cinst git
+cinst ConEmu
+cinst poshgit
+cinst SublimeText3
+cinst dotpeek
+cinst mssqlserver2014express
+cinst mssqlservermanagementstudio2014express
+cinst python
+cinst nodejs
+cinst RoboMongo
+#cinst resharper
+#cint SourceTree
 
 
 #Browsers
-cinstm googlechrome
-cinstm firefox
+cinst googlechrome
+cinst firefox
 
 #Other essential tools
-cinstm 7zip
-cinstm adobereader
-cinstm javaruntime
-cinstm greenshot
-cinstm truecrypt
-cinstm libreoffice
-cinstm IrfanView
-cinstm terminals
+cinst 7zip
+cinst adobereader
+cinst javaruntime
+cinst greenshot
+cinst truecrypt
+cinst libreoffice
+cinst IrfanView
+cinst terminals
 
 #cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
